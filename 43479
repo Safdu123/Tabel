@@ -1,0 +1,10 @@
+// Created Using Easy HTML v1.4.5
+// https://play.google.com/store/apps/details?id=ak.andro.easyhtml
+
+function back() {
+    var exp = cal.display.value;
+
+   cal.display.value= exp.substring(0, exp.length-1);
+}
+
+alert(".");
