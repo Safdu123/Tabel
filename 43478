@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<!-- Created Using Easy HTML v1.4.5 -->
+<!-- https://play.google.com/store/apps/details?id=ak.andro.easyhtml -->
+
+
+<html>
+    <head>
+        <title>Page Title</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+    <body>
+    <div class="boder">
+<form name ="cal">
+<input type="text" name ="display" class="display-2"
+ placeholder="0" ><br><br>
+ 
+ 
+ 
+        <input type="button" class="number" value ="9" onclick="cal.display.value+='9'">
+        <input type="button" class="number" value ="8" onclick="cal.display.value+='8'">
+        <input type="button" class="number" value ="7" onclick="cal.display.value+='7'">
+        <input type="button" class="number" value ="+" onclick="cal.display.value+='+'">
+        <br />
+        
+        <input type="button" class="number" value ="6" onclick="cal.display.value+='6'">
+        <input type="button" class="number" value ="5" onclick="cal.display.value+='5'">
+        <input type="button" class="number" value ="4" onclick="cal.display.value+='4'">
+        <input type="button" class="number" value ="-" onclick="cal.display.value+='-'">
+        <br />
+        
+        <input type="button" class="number" value ="3" onclick="cal.display.value+='3'">
+        <input type="button" class="number" value ="2" onclick="cal.display.value+='2'">
+        <input type="button" class="number" value ="1" onclick="cal.display.value+='1'">
+        <input type="button" class="number" value ="*" onclick="cal.display.value+='*'">
+        <br />
+        
+        <input type="button" class="number" value ="/" onclick="cal.display.value+='/'">
+        <input type="button" class="number" value ="0" onclick="cal.display.value+='0'">
+        <input type="button" class="number" value ="÷" onclick="cal.display.value+='÷'">
+        <input type="button" class="number" value ="=" onclick="cal.display.value=eval(cal.display.value)">
+        <br />
+        <input type="button" class="number" value ="Del" onclick ="back()" id="del">
+<input type="button" class="number" value ="." onclick ="cal.display.value+='.'">
+<input type="button" class="number" value="c" onclick="cal.display.value=''" id="clr">
+        
+    <script src="script.js"></script>
+</body>
+      </html></body>
